@@ -15,3 +15,10 @@
     background-repeat: no-repeat;
  
 }
+/*********************************
+          IMAGES IN HTML
+**********************************/
+.srcset-test img {
+  max-inline-size: 100%;
+  block-size: auto;
+}
