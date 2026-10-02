@@ -9,7 +9,13 @@
 **********************************/
 .back-sizer {
   height: 500px;
-  background-image: url("../images/puppy-full.jpg");
+
+  background-image: image-set(
+    "../images/puppy-1.0.jpg" 1x,
+    "../images/puppy-2.0.jpg" 2x,
+    "../images/puppy-3.0.jpg" 3x
+  );
+
   background-size: cover;
     background-position: right center;
     background-repeat: no-repeat;

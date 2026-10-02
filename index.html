@@ -24,10 +24,15 @@
             srcset="images/puppy-1.0.jpg 1x, 
             images/puppy-2.0.jpg 2x,
             images/puppy-3.0.jpg 3x">
-            
+
         </section>
 
-        <section class="test2">
+        <section class="picture-test">
+            <!-- this section is for playing with the picture element -->
+            <picture>
+              <source srcset="images/puppy-1200.jpg" media="(min-width:700px)">
+              <img src="images/puppy-600.jpg" alt="A white puppy standing in short grass">
+            </picture>
           <!-- this section is for playing with sizes-->
 
         </section>
